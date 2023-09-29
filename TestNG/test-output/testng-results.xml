@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46" started-at="2023-09-10T09:43:59Z" finished-at="2023-09-10T09:43:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46" started-at="2023-09-10T09:43:59Z" finished-at="2023-09-10T09:43:59Z">
+      <class name="testNG.DependanciesManagement">
+        <test-method status="PASS" signature="highSchool()[pri:0, instance:testNG.DependanciesManagement@5afa04c]" name="highSchool" duration-ms="14" started-at="2023-09-10T15:13:59Z" finished-at="2023-09-10T15:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highSchool -->
+        <test-method status="PASS" signature="higherSecondary()[pri:0, instance:testNG.DependanciesManagement@5afa04c]" name="higherSecondary" duration-ms="2" started-at="2023-09-10T15:13:59Z" depends-on-methods="testNG.DependanciesManagement.highSchool" finished-at="2023-09-10T15:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- higherSecondary -->
+        <test-method status="PASS" signature="engineering()[pri:0, instance:testNG.DependanciesManagement@5afa04c]" name="engineering" duration-ms="4" started-at="2023-09-10T15:13:59Z" depends-on-methods="testNG.DependanciesManagement.higherSecondary" finished-at="2023-09-10T15:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineering -->
+      </class> <!-- testNG.DependanciesManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
